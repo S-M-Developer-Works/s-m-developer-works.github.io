@@ -1684,6 +1684,8 @@ input::-moz-focus-inner {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: 501;
+  font-size: 20px;
+
 }
 
 .header-logo a {
@@ -1817,7 +1819,7 @@ input::-moz-focus-inner {
   letter-spacing: .3rem;
   position: absolute;
   top: 0;
-  left: 200px;
+  left: 400px;
 }
 
 .header-nav {
