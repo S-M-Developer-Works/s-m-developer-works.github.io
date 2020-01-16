@@ -50,7 +50,7 @@
  *
  *
  * =================================================================== */
-
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap'); 
 
 /* ===================================================================
  * # base style overrides
@@ -1684,8 +1684,9 @@ input::-moz-focus-inner {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: 501;
-  font-size: 20px;
-
+  font-size: 26px;
+  font-family: 'Acme', sans-serif;
+  
 }
 
 .header-logo a {
@@ -1694,13 +1695,19 @@ input::-moz-focus-inner {
   padding: 0;
   outline: 0;
   border: none;
+  color: rgb(255, 153, 51);
 }
-
+.header-logo a:hover{
+  color: rgb(255, 255, 255);
+}
 .header-logo img {
-  width: 130px;
+  width: 37px;
   height: 37px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  display: inline-block;
+  vertical-align: sub;
+  margin-right: 10px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1866,11 +1873,14 @@ input::-moz-focus-inner {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
+    font-size: 18px;
   }
 
+
   .header-logo img {
-    width: 120px;
-    height: 34px;
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
   }
 
   .s-header.sticky .header-logo {
