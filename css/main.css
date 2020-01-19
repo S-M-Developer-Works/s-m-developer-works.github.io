@@ -3465,6 +3465,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-list a {
   color: #FFFFFF;
+  font-size: medium;
 }
 
 .contact-list li {
